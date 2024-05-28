@@ -1,0 +1,20 @@
+LOJA DE VAREJO
+
+1. Margem de lucro
+2. Margen Bruta
+
+3. Vendas perdidas
+4. Volume de Veda
+
+5. Índice de recompra 
+7. Satisfação do Cliente
+
+8. Lista de produtos mais vendidos
+
+9. Ticket médio por venda
+    O ticket médio diz respeito a quanto cada consumidor gasta na loja.
+
+10. Custos com manutenção
+
+
+
