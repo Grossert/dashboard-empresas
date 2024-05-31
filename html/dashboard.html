@@ -28,6 +28,7 @@
                     <h5>este mês</h5>
                 </div>
             </section>
+
             <section>
                 <h2>Ticket médio</h2>
                 <div>
@@ -37,16 +38,52 @@
                 </div>
             </section>
         </div>
-        <section class="contMaisVend">
-            <h2>Mais vendidos deste mês</h2>
-            <table>
-                <tbody>
-                </tbody>
-            </table>
-        </section>
-           
+        <div>
+            <section>
+                <h2>Mais vendidos deste mês</h2>
+                <table>
+                    <tbody></tbody>
+                    <tfoot>
+                        <div id="grafPizVendidos"></div>
+                    </tfoot>
+                </table>
+            </section>
+        </div>
+        <div>
+            <div class="divIndices">
+                <section>
+                    <h2>Indice de Recompra</h2>
+                    <h3>Retorno</h3>
+                    <h4>25%</h4>
+                    <h5>de clientes este mês</h5>
+                    <h3>52% recorente</h3>
+                </section>
+                <section id="indiceSatisfacao">
+                    <h2>Indice de Satisfação</h2>
+                </section>
+                <section >
+                    <h2>Receita</h2>
+                    <div id="grafLinha"></div>
+                    <div id="grafBarra"></div>
+                </section>
+
+            </div>
+            <section >
+                <h2>Vendas</h2>
+                <div class="contVendas">
+                    <div id="grafGeografia"></div>
+                    <div class="listaPais">
+                        <h4>1. Brasil</h4>
+                        <h4>2. Argentina </h4>
+                        <h4>3. Uruguai</h4>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
     </main>
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script src="/js/dashboard.js"></script>
 </html>

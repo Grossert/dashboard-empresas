@@ -1,62 +1,66 @@
 *{
     box-sizing: border-box;
-    background-color: #cadbfd;
     color: white;
 }
 
+body{
+    background: linear-gradient(to bottom right, #021a33, #07325e);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /*HEADER*/
+header{
+    display: flex;
+    justify-content: center;
+}
 h1{
     padding: 0.1em;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2em;
     font-weight: bold;
-    color: #153555;
     background-color: transparent;
 }
-
 a{
     text-decoration: none;
-    background-color: transparent;
 }
+
 /*MAIN*/
 main{
     display: flex;
+    margin: 1em;
 }
-
 section{
     padding: 1.5em;
-    margin: 1em;
+    margin: 0.5em;
     border-radius: 2em;
-    border: 2px solid #000000;
-    background: linear-gradient(to bottom right, #115497, #021a33);
+    border: 2px solid #021a33;
+    background: linear-gradient(to bottom right, #0b3a69, #021a33);
 }
 
-/*Titulo dos tiles*/
+/*titulo dos tiles*/
 h2{
     font-size: 1.5em;
 }
 
-/*tescrição do valor*/
+/*descrição do valor*/
 h3{
-    padding-top: 1.5em;
+    padding-top: 2.2em;
     font-size: 2em;
 }
 
-/*Valores*/
+/*valores*/
 h4{
-    font-size: 4em;
+    font-size: 3em;
     font-weight: bold;
     padding: 0.2em;
 }
 
+/*complemento*/
 h5{
     font-size: 1em;
 }
 
-.contMaisVend{
-    width: 30em;
-}
-
+/*container "Mais vendidos deste mês"*/
 table{
     margin-top: 2em;
     width: 100%;
@@ -77,8 +81,19 @@ td:last-child {
     width: 20%;
 }
 
-div, h2, h3, h4, h5, table,tbody, tr, th, td{
-    background-color: transparent;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+/*indices*/
+.divIndices{
+    display: flex;
+}
+
+.h2VendasDesc{
+    padding-top: 1.5em;
+    font-weight: bold;
+}
+.contVendas{
+    display: flex;
+}
+.listaPais{
+    padding-left: 2em;
+    font-size: 1em;
 }
