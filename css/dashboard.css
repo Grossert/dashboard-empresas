@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    background-color: #cadbfd;
+    color: white;
+}
+
+/*HEADER*/
+h1{
+    padding: 0.1em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #153555;
+    background-color: transparent;
+}
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+/*MAIN*/
+main{
+    display: flex;
+}
+
+section{
+    padding: 1.5em;
+    margin: 1em;
+    border-radius: 2em;
+    border: 2px solid #000000;
+    background: linear-gradient(to bottom right, #115497, #021a33);
+}
+
+/*Titulo dos tiles*/
+h2{
+    font-size: 1.5em;
+}
+
+/*tescrição do valor*/
+h3{
+    padding-top: 1.5em;
+    font-size: 2em;
+}
+
+/*Valores*/
+h4{
+    font-size: 4em;
+    font-weight: bold;
+    padding: 0.2em;
+}
+
+h5{
+    font-size: 1em;
+}
+
+.contMaisVend{
+    width: 30em;
+}
+
+table{
+    margin-top: 2em;
+    width: 100%;
+}
+td{
+    padding: 1em;
+    font-size: 20px;
+    border-bottom: 1px solid;
+
+}
+td:first-child {
+    text-align: left;
+    width: 80%;
+}
+
+td:last-child {
+    text-align: right; 
+    width: 20%;
+}
+
+div, h2, h3, h4, h5, table,tbody, tr, th, td{
+    background-color: transparent;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
